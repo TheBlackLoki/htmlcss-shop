@@ -15,5 +15,16 @@
   right: 0;
 }
 #red{
-  background-color: red
+  background-color: red;
+}
+.cuore{
+  display: none;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  color: red;
+}
+.prodotto:hover > .cuore{
+  display: block;
 }
