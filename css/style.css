@@ -1,3 +1,19 @@
+*{
+  margin: 0;
+}
+.container{
+  margin-bottom: 10px;
+}
 .prodotto{
+  position: relative;
   display: inline-block;
+}
+.sconto{
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#red{
+  background-color: red
 }
